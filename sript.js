@@ -5,8 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const resetButton = document.getElementById('resetButton');
     const orderTableBody = document.getElementById('order-table-body');
     const subtotalElement = document.getElementById('subtotal');
-    const taxElement = document.getElementById('tax');
-    const totalElement = document.getElementById('total');
+ const totalElement = document.getElementById('total');
 
     const TAX_RATE = 0.05; // 5% tax
 
